@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="image">
+            <img src="/assets/image.svg" alt="Imagem ilustrativa de usuários">
+        </div>
+        <section class="form-wrapper">
+            <div class="text-area">
+                <p>Bem vindo de volta</p>
+                <h1>Faça login na sua conta</h1>
+            </div>
+
+            <form class="form-area">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="codelandia@gmail.com" required id="input">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="••••••••••" required id="input">
+
+                <div class="options-area">
+                    <div>
+                        <input type="radio" name="lembrar-login">
+                        <label for="lembrar-login">Lembre de mim</label>
+                    </div>
+
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <div class="area-buttons">
+                    <button type="submit">Entrar</button>
+
+                    <button id="secondary"><img src="/assets/google.svg" alt="Ìcone do Google">Ou faça login com o Google</button>
+                </div>
+            </form>
+
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </section>
+    </main>
+</body>
+
+</html>

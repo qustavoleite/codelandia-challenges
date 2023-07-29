@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 65.2%;
+
+    --white-two: #F7FAFC;
+    --white: #fff;
+    --green-light: #04C35C;
+    --dark-blue: #1A202C;
+    --grey: #E8E8E8;
+    --light-blue: #2B6CB0;
+
+    --lato: 'Lato', sans-serif;
+    --merriweather: 'Merriweather', serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .image {
+    background-color: var(--white-two);
+}
+
+.image,
+.form-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.text-area p {
+    margin-bottom: 6px;
+    font-family: var(--merriweather);
+    color: var(--dark-blue);
+    font-size: 1.6rem;
+}
+
+.text-area h1 {
+    font-family: var(--merriweather);
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-area label {
+    color: var(--dark-blue);
+    font-size: 1.6rem;
+    font-family: var(--lato);
+}
+
+.form-area #input {
+    height: 5rem;
+    width: 35rem;
+    border-radius: 5px;
+    border: 2px solid var(--grey);
+    padding-left: 10px;
+    outline: none;
+}
+
+#input::placeholder {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+}
+
+.options-area {
+    display: flex;
+    gap: 11rem;
+}
+
+.options-area a {
+    font-size: 1.5rem;
+    color: var(--light-blue);
+}
+
+.area-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+button {
+    height: 5rem;
+    width: 35rem;
+    font-size: 1.6rem;
+    background-color: var(--green-light);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition:.3s ease all;
+}
+
+button:hover {
+    background-color: #02c75ee4;
+    transform: scale(1.06);
+}
+
+button#secondary {
+    background-color: var(--dark-blue);
+}
+
+button#secondary:hover {
+    background-color: #1a202ce9;
+    transform: scale(1.06);
+}
+
+button#secondary img {
+    margin-right: 11px;
+}
+
+section p {
+    color: var(--dark-blue);
+    font-size: 1.8rem;
+}
+
+section p a {
+    color: var(--light-blue);
+}
