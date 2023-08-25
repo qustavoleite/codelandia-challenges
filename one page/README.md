@@ -9,9 +9,8 @@
 
 ### 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-<img width="4%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img width="4%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+- HTML
+- CSS
 
 ### 🔖 Layout
 
